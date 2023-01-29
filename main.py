@@ -43,21 +43,33 @@ def predictRouteClient():
             path = request.form['filepath']
 
             pred_val = pred_validation(path) #object initialization
+            print('1')
 
             pred_val.prediction_validation() #calling the prediction_validation function
+            print('2')
 
             pred = prediction(path) #object initialization
+            print('3')
+            print('line 53')
 
             # predicting for dataset present in database
             path,json_predictions = pred.predictionFromModel()
+            print(path)
+            print("----")
+            print(json_predictions)
+            print('4')
             return Response("Prediction File created at !!!"  +str(path) +'and few of the predictions are '+str(json.loads(json_predictions) ))
         else:
             print('Nothing Matched')
     except ValueError:
+        print('65')
         return Response("Error Occurred! %s" %ValueError)
     except KeyError:
+        print('68')
         return Response("Error Occurred! %s" %KeyError)
     except Exception as e:
+        print('71')
+        print(e)
         return Response("Error Occurred! %s" %e)
 
 

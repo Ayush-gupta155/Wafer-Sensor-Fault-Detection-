@@ -30,16 +30,23 @@ class File_Operation:
             Revisions: None
 """
         self.logger_object.log(self.file_object, 'Entered the save_model method of the File_Operation class')
+        
         try:
+            # self.logger_object.log(self.file_object, 'Line 35')
             path = os.path.join(self.model_directory,filename) #create seperate directory for each cluster
+            
             if os.path.isdir(path): #remove previously existing models for each clusters
+                print('if')
                 shutil.rmtree(self.model_directory)
                 os.makedirs(path)
             else:
+                print('else')
                 os.makedirs(path) #
+                
             with open(path +'/' + filename+'.sav',
                       'wb') as f:
                 pickle.dump(model, f) # save the model to file
+            
             self.logger_object.log(self.file_object,
                                    'Model File '+filename+' saved. Exited the save_model method of the Model_Finder class')
 
@@ -51,18 +58,11 @@ class File_Operation:
             raise Exception()
 
     def load_model(self,filename):
-        """
-                    Method Name: load_model
-                    Description: load the model file to memory
-                    Output: The Model file loaded in memory
-                    On Failure: Raise Exception
-
-                    Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
-        """
+        
         self.logger_object.log(self.file_object, 'Entered the load_model method of the File_Operation class')
+
         try:
+            print("line 74")
             with open(self.model_directory + filename + '/' + filename + '.sav',
                       'rb') as f:
                 self.logger_object.log(self.file_object,

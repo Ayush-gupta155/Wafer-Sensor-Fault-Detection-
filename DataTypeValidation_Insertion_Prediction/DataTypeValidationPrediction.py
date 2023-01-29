@@ -25,6 +25,7 @@ class dBOperation:
 
 
     def dataBaseConnection(self,DatabaseName):
+        # print('CONN')
 
         """
                         Method Name: dataBaseConnection
@@ -38,12 +39,13 @@ class dBOperation:
 
                         """
         try:
+            # print(DatabaseName)
             conn = sqlite3.connect(self.path+DatabaseName+'.db')
-
             file = open("Prediction_Logs/DataBaseConnectionLog.txt", 'a+')
             self.logger.log(file, "Opened %s database successfully" % DatabaseName)
             file.close()
         except ConnectionError:
+            print('error1')
             file = open("Prediction_Logs/DataBaseConnectionLog.txt", 'a+')
             self.logger.log(file, "Error while connecting to database: %s" %ConnectionError)
             file.close()
@@ -64,8 +66,11 @@ class dBOperation:
 
         """
         try:
+            # print('conn1')
             conn = self.dataBaseConnection(DatabaseName)
+            # print(conn)
             conn.execute('DROP TABLE IF EXISTS Good_Raw_Data;')
+            # print('conn3')
 
             for key in column_names.keys():
                 type = column_names[key]
@@ -77,6 +82,7 @@ class dBOperation:
                     #cur = cur.execute("SELECT name FROM {dbName} WHERE type='table' AND name='Good_Raw_Data'".format(dbName=DatabaseName))
                     conn.execute('ALTER TABLE Good_Raw_Data ADD COLUMN "{column_name}" {dataType}'.format(column_name=key,dataType=type))
                 except:
+                    print('error2')
                     conn.execute('CREATE TABLE  Good_Raw_Data ({column_name} {dataType})'.format(column_name=key, dataType=type))
 
             conn.close()
@@ -90,6 +96,7 @@ class dBOperation:
             file.close()
 
         except Exception as e:
+            print(e)
             file = open("Prediction_Logs/DbTableCreateLog.txt", 'a+')
             self.logger.log(file, "Error while creating table: %s " % e)
             file.close()
@@ -134,10 +141,11 @@ class dBOperation:
                                 self.logger.log(log_file," %s: File loaded successfully!!" % file)
                                 conn.commit()
                             except Exception as e:
+                                print('error9')
                                 raise e
 
             except Exception as e:
-
+                print('error4')
                 conn.rollback()
                 self.logger.log(log_file,"Error while creating table: %s " % e)
                 shutil.move(goodFilePath+'/' + file, badFilePath)
@@ -194,6 +202,7 @@ class dBOperation:
             self.logger.log(log_file, "File exported successfully!!!")
 
         except Exception as e:
+            print('error5')
             self.logger.log(log_file, "File exporting failed. Error : %s" %e)
             raise e
 

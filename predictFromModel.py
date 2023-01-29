@@ -55,6 +55,8 @@ class prediction:
                 result.to_csv("Prediction_Output_File/Predictions.csv",header=True,mode='a+') #appends result to prediction file
             self.log_writer.log(self.file_object,'End of Prediction')
         except Exception as ex:
+            print('line58')
+            print(ex)
             self.log_writer.log(self.file_object, 'Error occured while running the prediction!! Error:: %s' % ex)
             raise ex
         return path, result.head().to_json(orient="records")

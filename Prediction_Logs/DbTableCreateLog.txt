@@ -1,0 +1,45 @@
+2023-01-26/16:26:38		Error while creating table: unable to open database file 
+2023-01-26/16:27:48		Error while creating table: unable to open database file 
+2023-01-26/16:34:16		Error while creating table: unable to open database file 
+2023-01-26/16:35:37		Error while creating table: unable to open database file 
+2023-01-26/16:43:53		Error while creating table: unable to open database file 
+2023-01-26/16:50:04		Error while creating table: unable to open database file 
+2023-01-26/16:51:47		Error while creating table: unable to open database file 
+2023-01-26/16:55:15		Error while creating table: unable to open database file 
+2023-01-26/16:58:19		Error while creating table: unable to open database file 
+2023-01-27/08:35:59		Error while creating table: unable to open database file 
+2023-01-27/08:40:55		Error while creating table: unable to open database file 
+2023-01-27/08:41:43		Error while creating table: unable to open database file 
+2023-01-27/08:44:12		Error while creating table: unable to open database file 
+2023-01-27/08:44:39		Error while creating table: unable to open database file 
+2023-01-27/08:45:15		Error while creating table: unable to open database file 
+2023-01-27/08:47:49		Error while creating table: unable to open database file 
+2023-01-27/08:48:37		Error while creating table: unable to open database file 
+2023-01-27/10:28:55		Error while creating table: unable to open database file 
+2023-01-27/10:30:15		Error while creating table: unable to open database file 
+2023-01-27/10:30:40		Error while creating table: unable to open database file 
+2023-01-27/10:30:48		Error while creating table: unable to open database file 
+2023-01-27/10:32:54		Error while creating table: unable to open database file 
+2023-01-27/10:35:23		Error while creating table: unable to open database file 
+2023-01-27/10:38:33		Error while creating table: unable to open database file 
+2023-01-27/10:40:59		Error while creating table: unable to open database file 
+2023-01-29/08:46:31		Tables created successfully!!
+2023-01-29/08:47:51		Tables created successfully!!
+2023-01-29/08:54:16		Tables created successfully!!
+2023-01-29/08:57:35		Tables created successfully!!
+2023-01-29/08:57:47		Tables created successfully!!
+2023-01-29/08:58:34		Tables created successfully!!
+2023-01-29/08:59:27		Tables created successfully!!
+2023-01-29/09:00:12		Tables created successfully!!
+2023-01-29/09:05:16		Tables created successfully!!
+2023-01-29/09:07:36		Tables created successfully!!
+2023-01-29/09:08:17		Tables created successfully!!
+2023-01-29/09:16:01		Tables created successfully!!
+2023-01-29/09:18:38		Tables created successfully!!
+2023-01-29/09:23:21		Tables created successfully!!
+2023-01-29/09:32:53		Tables created successfully!!
+2023-01-29/09:34:44		Tables created successfully!!
+2023-01-29/09:37:09		Tables created successfully!!
+2023-01-29/09:42:15		Tables created successfully!!
+2023-01-29/09:48:39		Tables created successfully!!
+2023-01-29/14:34:08		Tables created successfully!!

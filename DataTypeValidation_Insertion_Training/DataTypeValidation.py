@@ -43,6 +43,7 @@ class dBOperation:
             self.logger.log(file, "Opened %s database successfully" % DatabaseName)
             file.close()
         except ConnectionError:
+            print('error6')
             file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
             self.logger.log(file, "Error while connecting to database: %s" %ConnectionError)
             file.close()
@@ -86,6 +87,7 @@ class dBOperation:
                         #cur = cur.execute("SELECT name FROM {dbName} WHERE type='table' AND name='Good_Raw_Data'".format(dbName=DatabaseName))
                         conn.execute('ALTER TABLE Good_Raw_Data ADD COLUMN "{column_name}" {dataType}'.format(column_name=key,dataType=type))
                     except:
+                        print('error 8')
                         conn.execute('CREATE TABLE  Good_Raw_Data ({column_name} {dataType})'.format(column_name=key, dataType=type))
 
 
@@ -100,6 +102,7 @@ class dBOperation:
                 file.close()
 
         except Exception as e:
+            print('error7')
             file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
             self.logger.log(file, "Error while creating table: %s " % e)
             file.close()
@@ -143,10 +146,11 @@ class dBOperation:
                                 self.logger.log(log_file," %s: File loaded successfully!!" % file)
                                 conn.commit()
                             except Exception as e:
+                                print("-A-")
                                 raise e
 
             except Exception as e:
-
+                print('error8')
                 conn.rollback()
                 self.logger.log(log_file,"Error while creating table: %s " % e)
                 shutil.move(goodFilePath+'/' + file, badFilePath)
@@ -202,6 +206,7 @@ class dBOperation:
             log_file.close()
 
         except Exception as e:
+            print('error9')
             self.logger.log(log_file, "File exporting failed. Error : %s" %e)
             log_file.close()
 
