@@ -1,5 +1,5 @@
 import pandas
-from file_operations import file_methods
+from file_operationss import file_methods
 from data_preprocessing import preprocessing
 from data_ingestion import data_loader_prediction
 from application_logging import logger
@@ -15,10 +15,12 @@ class prediction:
             self.pred_data_val = Prediction_Data_validation(path)
 
     def predictionFromModel(self):
-
+        print("prediction From model called line 18 ")
         try:
+            print("prediction From model called run try")
             self.pred_data_val.deletePredictionFile() #deletes the existing prediction file from last run!
             self.log_writer.log(self.file_object,'Start of Prediction')
+            print('predictFromModel line 23')
             data_getter=data_loader_prediction.Data_Getter_Pred(self.file_object,self.log_writer)
             data=data_getter.get_data()
 
@@ -34,8 +36,13 @@ class prediction:
             cols_to_drop=preprocessor.get_columns_with_zero_std_deviation(data)
             data=preprocessor.remove_columns(data,cols_to_drop)
             #data=data.to_numpy()
+            print("before file opertaion")
+
+
             file_loader=file_methods.File_Operation(self.file_object,self.log_writer)
+            print('predicr line 43')
             kmeans=file_loader.load_model('KMeans')
+            
 
             ##Code changed
             #pred_data = data.drop(['Wafer'],axis=1)
@@ -56,7 +63,7 @@ class prediction:
             self.log_writer.log(self.file_object,'End of Prediction')
         except Exception as ex:
             print('line58')
-            print(ex)
+            print('predictfrom model',ex)
             self.log_writer.log(self.file_object, 'Error occured while running the prediction!! Error:: %s' % ex)
             raise ex
         return path, result.head().to_json(orient="records")

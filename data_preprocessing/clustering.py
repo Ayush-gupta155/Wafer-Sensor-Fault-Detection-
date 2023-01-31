@@ -1,7 +1,7 @@
-import matplotlib.pyplot as plt
+from file_operationss import file_methods
 from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 from kneed import KneeLocator
-from file_operations import file_methods
 
 class KMeansClustering:
     """
@@ -11,7 +11,7 @@ class KMeansClustering:
             Version: 1.0
             Revisions: None
 
-            """
+    """
 
     def __init__(self, file_object, logger_object):
         self.file_object = file_object
@@ -19,16 +19,9 @@ class KMeansClustering:
 
     def elbow_plot(self,data):
         """
-                        Method Name: elbow_plot
-                        Description: This method saves the plot to decide the optimum number of clusters to the file.
-                        Output: A picture saved to the directory
-                        On Failure: Raise Exception
+            
 
-                        Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
-
-                """
+        """
         self.logger_object.log(self.file_object, 'Entered the elbow_plot method of the KMeansClustering class')
         wcss=[] # initializing an empty list
         try:

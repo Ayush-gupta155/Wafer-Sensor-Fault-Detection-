@@ -1,0 +1,182 @@
+2023-01-31/17:39:53		Start of Training
+2023-01-31/17:39:53		Entered the get_data method of the Data_Getter class
+2023-01-31/17:39:53		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/17:39:53		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:39:53		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:39:53		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/17:39:53		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/17:39:53		Entered the is_null_present method of the Preprocessor class
+2023-01-31/17:39:53		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/17:39:53		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/17:39:55		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/17:39:55		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:39:56		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:39:56		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:39:56		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:39:56		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/17:40:08		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/17:40:08		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/17:40:08		Unsuccessful End of Training
+2023-01-31/17:42:10		Start of Training
+2023-01-31/17:42:10		Entered the get_data method of the Data_Getter class
+2023-01-31/17:42:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/17:42:10		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:42:10		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:42:10		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/17:42:10		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/17:42:10		Entered the is_null_present method of the Preprocessor class
+2023-01-31/17:42:10		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/17:42:10		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/17:42:13		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/17:42:13		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:42:14		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:42:14		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:42:14		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:42:14		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/17:42:26		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/17:42:26		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/17:42:26		Unsuccessful End of Training
+2023-01-31/17:43:26		Start of Training
+2023-01-31/17:43:26		Entered the get_data method of the Data_Getter class
+2023-01-31/17:43:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/17:43:26		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:43:26		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:43:26		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/17:43:26		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/17:43:26		Entered the is_null_present method of the Preprocessor class
+2023-01-31/17:43:26		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/17:43:26		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/17:43:32		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/17:43:32		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:43:34		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:43:34		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:43:34		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:43:34		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/17:43:51		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/17:43:51		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/17:43:51		Unsuccessful End of Training
+2023-01-31/17:44:05		Start of Training
+2023-01-31/17:44:05		Entered the get_data method of the Data_Getter class
+2023-01-31/17:44:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/17:44:05		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:44:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:44:05		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/17:44:05		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/17:44:05		Entered the is_null_present method of the Preprocessor class
+2023-01-31/17:44:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/17:44:05		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/17:44:16		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/17:44:16		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:44:18		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:44:18		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:44:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:44:18		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/17:44:39		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/17:44:39		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/17:44:39		Unsuccessful End of Training
+2023-01-31/17:46:32		Start of Training
+2023-01-31/17:46:32		Entered the get_data method of the Data_Getter class
+2023-01-31/17:46:32		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/17:46:32		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:46:32		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:46:32		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/17:46:32		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/17:46:32		Entered the is_null_present method of the Preprocessor class
+2023-01-31/17:46:32		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/17:46:32		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/17:46:50		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/17:46:50		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:46:52		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/17:46:52		Entered the remove_columns method of the Preprocessor class
+2023-01-31/17:46:52		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/17:46:52		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/17:47:16		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/17:47:16		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/17:47:16		Unsuccessful End of Training
+2023-01-31/18:02:31		Start of Training
+2023-01-31/18:02:31		Entered the get_data method of the Data_Getter class
+2023-01-31/18:02:32		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/18:02:32		Entered the remove_columns method of the Preprocessor class
+2023-01-31/18:02:32		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/18:02:32		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/18:02:32		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/18:02:32		Entered the is_null_present method of the Preprocessor class
+2023-01-31/18:02:32		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/18:02:32		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/18:02:57		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/18:02:57		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/18:02:58		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/18:02:58		Entered the remove_columns method of the Preprocessor class
+2023-01-31/18:02:58		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/18:02:58		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/18:03:28		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/18:03:28		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/18:03:28		Unsuccessful End of Training
+2023-01-31/18:08:33		Start of Training
+2023-01-31/18:08:33		Entered the get_data method of the Data_Getter class
+2023-01-31/18:08:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/18:08:34		Entered the remove_columns method of the Preprocessor class
+2023-01-31/18:08:34		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/18:08:34		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/18:08:34		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/18:08:34		Entered the is_null_present method of the Preprocessor class
+2023-01-31/18:08:34		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/18:08:34		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/18:09:10		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/18:09:10		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/18:09:11		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/18:09:11		Entered the remove_columns method of the Preprocessor class
+2023-01-31/18:09:11		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/18:09:11		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/18:09:43		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  name 'plt' is not defined
+2023-01-31/18:09:43		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/18:09:43		Unsuccessful End of Training
+2023-01-31/18:10:32		Start of Training
+2023-01-31/18:10:32		Entered the get_data method of the Data_Getter class
+2023-01-31/18:10:32		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-31/18:10:32		Entered the remove_columns method of the Preprocessor class
+2023-01-31/18:10:32		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/18:10:32		Entered the separate_label_feature method of the Preprocessor class
+2023-01-31/18:10:32		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-31/18:10:32		Entered the is_null_present method of the Preprocessor class
+2023-01-31/18:10:32		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-31/18:10:32		Entered the impute_missing_values method of the Preprocessor class
+2023-01-31/18:11:07		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-01-31/18:11:07		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/18:11:09		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2023-01-31/18:11:09		Entered the remove_columns method of the Preprocessor class
+2023-01-31/18:11:09		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-01-31/18:11:09		Entered the elbow_plot method of the KMeansClustering class
+2023-01-31/18:11:34		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-01-31/18:11:34		Entered the create_clusters method of the KMeansClustering class
+2023-01-31/18:11:37		Entered the save_model method of the File_Operation class
+2023-01-31/18:11:37		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-01-31/18:11:37		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-01-31/18:11:37		Entered the get_best_model method of the Model_Finder class
+2023-01-31/18:11:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-31/18:42:34		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-31/18:42:34		AUC for XGBoost:1.0
+2023-01-31/18:42:34		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-01-31/18:43:43		Random Forest best params: {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2023-01-31/18:43:43		AUC for RF:0.5306122448979592
+2023-01-31/18:43:43		Entered the save_model method of the File_Operation class
+2023-01-31/18:43:43		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2023-01-31/18:43:43		Entered the get_best_model method of the Model_Finder class
+2023-01-31/18:43:43		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-31/18:47:20		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-31/18:47:20		AUC for XGBoost:1.0
+2023-01-31/18:47:20		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-01-31/18:47:45		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2023-01-31/18:47:45		AUC for RF:1.0
+2023-01-31/18:47:45		Entered the save_model method of the File_Operation class
+2023-01-31/18:47:45		Model File RandomForest2 saved. Exited the save_model method of the Model_Finder class
+2023-01-31/18:47:45		Entered the get_best_model method of the Model_Finder class
+2023-01-31/18:47:45		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-31/18:54:41		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-31/18:54:41		AUC for XGBoost:1.0
+2023-01-31/18:54:41		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2023-01-31/18:55:11		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 130}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2023-01-31/18:55:11		AUC for RF:0.9166666666666667
+2023-01-31/18:55:11		Entered the save_model method of the File_Operation class
+2023-01-31/18:55:11		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2023-01-31/18:55:11		Successful End of Training

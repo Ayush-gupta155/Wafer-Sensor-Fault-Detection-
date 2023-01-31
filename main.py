@@ -9,6 +9,7 @@ from training_Validation_Insertion import train_validation
 import flask_monitoringdashboard as dashboard
 from predictFromModel import prediction
 import json
+from data_preprocessing import clustering
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -26,22 +27,28 @@ def home():
 @app.route("/predict", methods=['POST'])
 @cross_origin()
 def predictRouteClient():
+    print("pridict url called")
     try:
         if request.json is not None:
             path = request.json['filepath']
+           
 
             pred_val = pred_validation(path) #object initialization
+            print("object initialization")
 
             pred_val.prediction_validation() #calling the prediction_validation function
+            print("calling the prediction_validation function")
 
             pred = prediction(path) #object initialization
+            print("object initialization")
 
             # predicting for dataset present in database
             path,json_predictions = pred.predictionFromModel()
             return Response("Prediction File created at !!!"  +str(path) +'and few of the predictions are '+str(json.loads(json_predictions) ))
+        
         elif request.form is not None:
             path = request.form['filepath']
-
+            
             pred_val = pred_validation(path) #object initialization
             print('1')
 
@@ -75,20 +82,27 @@ def predictRouteClient():
 
 
 @app.route("/train", methods=['POST'])
+
 @cross_origin()
 def trainRouteClient():
-
+    print(request.json)
     try:
+        print(request.json)
         if request.json['folderPath'] is not None:
             path = request.json['folderPath']
 
+
             train_valObj = train_validation(path) #object initialization
+            print('96')
 
             train_valObj.train_validation()#calling the training_validation function
+            print('99')
 
 
             trainModelObj = trainModel() #object initialization
+            print('103')
             trainModelObj.trainingModel() #training the model for the files in the table
+            print('105')
 
 
     except ValueError:

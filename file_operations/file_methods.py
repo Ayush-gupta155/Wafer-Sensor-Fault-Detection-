@@ -58,11 +58,16 @@ class File_Operation:
             raise Exception()
 
     def load_model(self,filename):
-        
+        print('load model')
         self.logger_object.log(self.file_object, 'Entered the load_model method of the File_Operation class')
 
         try:
             print("line 74")
+            print('========')
+            print(self.model_directory)
+            print('========')
+            print(filename)
+            print('========')
             with open(self.model_directory + filename + '/' + filename + '.sav',
                       'rb') as f:
                 self.logger_object.log(self.file_object,
